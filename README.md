@@ -1,4 +1,4 @@
-#Resume on npm
+## Resume on npm
 
 This project allows you to view my resume directly in your terminal using `npx`. It is published as a public npm package for quick access and demonstration.
 
