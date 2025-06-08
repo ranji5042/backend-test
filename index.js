@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 
-const open = require('open');
 const chalk = require('chalk');
-const path = require('path');
 
 // Terminal resume text using chalk formatting
 const resumeText = `
@@ -62,12 +60,9 @@ ${chalk.underline.bold('CONTACT')}
 📧 ranjithkumar5042@gmail.com
 📍 Malleswaram, Bengaluru - 560021
 
-${chalk.bgWhite.black('Opening PDF resume...')}
+${chalk.bgWhite.black('')}
 `;
 
-// Display in terminal
 console.log(resumeText);
 
-// Open PDF file
-const pdfPath = path.join(__dirname, 'Ranjith Kumar P.pdf');
-open(pdfPath);
+
