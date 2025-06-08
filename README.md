@@ -25,7 +25,7 @@ If you want to run or modify this project locally, follow these steps:
 3. Install the required dependencies:
 
 ```bash
-npm install chalk open
+npm install chalk
 ```
 
 4. Run the script:
@@ -34,14 +34,13 @@ npm install chalk open
 node index.js
 ```
 
-This will display your resume in the terminal and open the PDF file (if coded to do so).
+This will display my resume in the terminal.
 
 ---
 
 ## About This Package
 
-This npm package displays my resume in a well-formatted, terminal-friendly format using `chalk` for color styling. It also uses the `open` package to allow users to optionally open a PDF version of the resume in their default system browser or PDF viewer.
-
+This npm package displays my resume in a well-formatted, terminal-friendly format using `chalk` for color styling. 
 ---
 
 ## Naming Issue (npm Package Name)
